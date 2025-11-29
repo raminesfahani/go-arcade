@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.20%2B-blue)](https://golang.org/doc/go1.20)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions)
+
 
 A lightweight 2D arcade game scaffold written in Go using [Ebiten](https://ebitenengine.org/). No external assets required — all sprites and assets are generated procedurally. Perfect for learning Go game development or as a starting point for arcade-style games.
 
@@ -14,12 +14,10 @@ A lightweight 2D arcade game scaffold written in Go using [Ebiten](https://ebite
 - 🔊 Audio scaffolding for sound implementation
 - 📦 Small, modular project structure
 - 🚀 Cross-platform: Windows, macOS, Linux
-- ⚡ GitHub Actions CI workflow included
 
 ## Prerequisites
 
 - **Go 1.20+** (recommended: 1.21 or newer)
-- **Git** (for cloning and version control)
 - Platform-specific requirements for Ebiten (see [Ebiten documentation](https://ebitenengine.org/en/documents/install.html))
 
 ## Quick Start
@@ -83,33 +81,17 @@ go-arcade/
         └── ci.yml     # GitHub Actions CI configuration
 ```
 
-## Testing
-
-Run tests and linting:
-
-```powershell
-go test ./... -v
-go vet ./...
-```
-
-For more thorough linting, consider installing `golangci-lint`:
-
-```powershell
-go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
-golangci-lint run ./...
-```
-
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## Code of Conduct
 
-We are committed to providing a welcoming and inspiring community. Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+We are committed to providing a welcoming and inspiring community. Please read our [CODE_OF_CONDUCT.md](CODE OF CONDUCT).
 
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING) for guidelines on:
 
 - Reporting bugs
 - Suggesting enhancements
@@ -118,7 +100,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes in each release.
+See [CHANGELOG.md](CHANGELOG) for a detailed list of changes in each release.
 
 ## Resources
 
