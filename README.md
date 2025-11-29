@@ -6,6 +6,9 @@
 
 A lightweight 2D arcade game scaffold written in Go using [Ebiten](https://ebitenengine.org/). No external assets required — all sprites and assets are generated procedurally. Perfect for learning Go game development or as a starting point for arcade-style games.
 
+<br>
+<img style="width:100%" src="demo.gif">
+
 ## Features
 
 - ✨ Minimal, self-contained codebase
@@ -81,17 +84,18 @@ go-arcade/
         └── ci.yml     # GitHub Actions CI configuration
 ```
 
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## Code of Conduct
 
-We are committed to providing a welcoming and inspiring community. Please read our [CODE_OF_CONDUCT.md](CODE OF CONDUCT).
+We are committed to providing a welcoming and inspiring community. Please read our [CODE OF CONDUCT](CODE_OF_CONDUCT.md).
 
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING) for guidelines on:
+Contributions are welcome! Please see [CONTRIBUTING](CONTRIBUTING.md) for guidelines on:
 
 - Reporting bugs
 - Suggesting enhancements
@@ -100,7 +104,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING) for guidel
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG) for a detailed list of changes in each release.
+See [CHANGELOG](CHANGELOG.md) for a detailed list of changes in each release.
 
 ## Resources
 
