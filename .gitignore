@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build output
+/bin/
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Ignore local secrets
+.env
